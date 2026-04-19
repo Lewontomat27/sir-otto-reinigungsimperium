@@ -1,0 +1,61 @@
+/* ===== LEGAL PAGES (Datenschutz/Impressum) ===== */
+
+.legal-section {
+    padding: 6rem 0;
+    min-height: 70vh; /* Sorgt dafür, dass der Footer bei wenig Text unten bleibt */
+}
+
+.legal-section h1 {
+    font-size: 4rem;
+    color: var(--primary-blue);
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.legal-box {
+    background: white;
+    padding: 4rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    border-left: 5px solid var(--accent-gold);
+}
+
+.legal-box h2 {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    border-bottom: none; /* Überschreibt dein Standard h2 Styling */
+}
+
+.legal-box h3 {
+    text-align: left;
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.legal-box p {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.legal-address {
+    font-style: normal;
+    font-size: 1.6rem;
+    background: var(--bg-light-gray);
+    padding: 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    color: var(--text-dark);
+}
+
+/* Responsive Anpassung für Rechtsseiten */
+@media (max-width: 768px) {
+    .legal-box {
+        padding: 2rem;
+    }
+    .legal-section h1 {
+        font-size: 3rem;
+    }
+}
